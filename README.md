@@ -18,6 +18,10 @@
   - [Calculus & Optimization](#calculus--optimization)
 - [Programming](#programming)
   - [Python](#python)
+  - [C / C++](#c--c)
+  - [YAML](#yaml)
+  - [Bash / Shell](#bash--shell)
+  - [Rust](#rust)
   - [Algorithms & Data Structures](#algorithms--data-structures)
 - [Data Science & Analytics](#data-science--analytics)
 - [Machine Learning](#machine-learning)
@@ -100,6 +104,40 @@ Physics + Electronics
 - [100 Numpy Exercises](https://github.com/rougier/numpy-100)
 - [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 - [Python Data Science Handbook — Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
+
+### C / C++
+
+> Essential for embedded systems, microcontrollers, and on-device inference. Directly relevant to Edge AI hardware work.
+
+- [C Programming for Beginners — freeCodeCamp](https://www.youtube.com/watch?v=KJgsSFOSQv0)
+- [C++ for Embedded Systems — Embedded Artistry](https://embeddedartistry.com/beginners/)
+- [Learn C++ — learncpp.com](https://www.learncpp.com/)
+- [TensorFlow Lite for Microcontrollers (C++ API)](https://www.tensorflow.org/lite/microcontrollers)
+- [Arduino C++ Reference](https://www.arduino.cc/reference/en/)
+
+### YAML
+
+> Used in ML pipelines, model configs, Docker, Kubernetes, n8n, and LangChain workflows.
+
+- [YAML in 5 Minutes](https://www.youtube.com/watch?v=cdLNKUoMc6c)
+- [YAML Official Specification](https://yaml.org/spec/1.2.2/)
+- [YAML for DevOps — TechWorld with Nana](https://www.youtube.com/watch?v=1uFVr15xDGg)
+
+### Bash / Shell
+
+> For automation, deployment scripts, and managing Linux-based edge devices like Raspberry Pi and Jetson.
+
+- [The Missing Semester of Your CS Education — Shell Tools](https://missing.csail.mit.edu/2020/shell-tools/)
+- [Bash Scripting Full Course — freeCodeCamp](https://www.youtube.com/watch?v=e7BufAVwDiM)
+- [Linux Command Line Basics — Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners)
+
+### Rust
+
+> Growing fast in systems programming and ML inference runtimes. Queued for later in the roadmap.
+
+- [The Rust Programming Language (Book)](https://doc.rust-lang.org/book/)
+- [Rust for Embedded Systems](https://docs.rust-embedded.org/book/)
+- [Rustlings — Interactive Rust Exercises](https://github.com/rust-lang/rustlings)
 
 ### Algorithms & Data Structures
 
