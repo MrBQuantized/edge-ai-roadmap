@@ -71,7 +71,7 @@ Physics + Electronics
 **Active tracks:**
 - IBM IT Experience — Data Analytics
 - TechCrush Cohort 6 — Data Science
-- TechyJaunt Cohort 2 — AI/ML
+- TechyJaunt Cohort 8 — AI/ML
 
 ---
 
