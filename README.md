@@ -18,10 +18,13 @@
   - [Calculus & Optimization](#calculus--optimization)
 - [Programming](#programming)
   - [Python](#python)
+  - [Linux](#linux)
   - [C / C++](#c--c)
   - [YAML](#yaml)
   - [Bash / Shell](#bash--shell)
+  - [Docker](#docker)
   - [Rust](#rust)
+  - [Go](#go)
   - [Algorithms & Data Structures](#algorithms--data-structures)
 - [Data Science & Analytics](#data-science--analytics)
 - [Machine Learning](#machine-learning)
@@ -68,7 +71,7 @@ Physics + Electronics
 **Active tracks:**
 - IBM IT Experience — Data Analytics
 - TechCrush Cohort 6 — Data Science
-- TechyJaunt Cohort 8 — AI/ML
+- TechyJaunt Cohort 2 — AI/ML
 
 ---
 
@@ -105,6 +108,16 @@ Physics + Electronics
 - [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 - [Python Data Science Handbook — Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
+### Linux
+
+> The operating environment for most edge devices — Raspberry Pi, Jetson, and embedded Linux boards all run Linux. Essential early, not late.
+
+- [The Linux Command Line (Book — free)](https://linuxcommand.org/tlcl.php)
+- [Linux for Beginners — freeCodeCamp](https://www.youtube.com/watch?v=sWbUDq4S6Y8)
+- [The Missing Semester — MIT (Shell, Git, CLI tools)](https://missing.csail.mit.edu/)
+- [Linux Journey — Interactive](https://linuxjourney.com/)
+- [Raspberry Pi Linux Getting Started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+
 ### C / C++
 
 > Essential for embedded systems, microcontrollers, and on-device inference. Directly relevant to Edge AI hardware work.
@@ -131,6 +144,15 @@ Physics + Electronics
 - [Bash Scripting Full Course — freeCodeCamp](https://www.youtube.com/watch?v=e7BufAVwDiM)
 - [Linux Command Line Basics — Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners)
 
+### Docker
+
+> Containerized deployment is standard in production ML and increasingly used at the edge. Bridges model training to real-world deployment.
+
+- [Docker Getting Started — Official Docs](https://docs.docker.com/get-started/)
+- [Docker for Beginners — TechWorld with Nana](https://www.youtube.com/watch?v=3c-iBn73dDE)
+- [Docker for ML Engineers](https://testdriven.io/blog/docker-for-machine-learning/)
+- [Running Docker on Raspberry Pi](https://www.raspberrypi.com/tutorials/use-docker-to-run-applications-on-raspberry-pi/)
+
 ### Rust
 
 > Growing fast in systems programming and ML inference runtimes. Queued for later in the roadmap.
@@ -138,6 +160,14 @@ Physics + Electronics
 - [The Rust Programming Language (Book)](https://doc.rust-lang.org/book/)
 - [Rust for Embedded Systems](https://docs.rust-embedded.org/book/)
 - [Rustlings — Interactive Rust Exercises](https://github.com/rust-lang/rustlings)
+
+### Go
+
+> Optional specialization — useful for building lightweight APIs and microservices that serve ML models at the edge.
+
+- [Go by Example](https://gobyexample.com/)
+- [Go Documentation — Official](https://go.dev/doc/)
+- [Building APIs with Go](https://www.youtube.com/watch?v=SonwZ6MF5BE)
 
 ### Algorithms & Data Structures
 
@@ -223,6 +253,8 @@ This is the destination. Edge AI combines everything above with hardware-aware t
 ### Hardware & Embedded Systems
 
 - [Arduino Machine Learning](https://docs.arduino.cc/tutorials/nano-33-ble-sense/get-started-with-machine-learning/)
+- [ESP32 Getting Started — Espressif](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/)
+- [ESP32 with MicroPython — Random Nerd Tutorials](https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/)
 - [Raspberry Pi AI Kit Documentation](https://www.raspberrypi.com/documentation/accessories/ai-kit.html)
 - [NVIDIA Jetson Getting Started](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 - [OpenCV for Embedded Systems](https://opencv.org/opencv-for-embedded-systems/)
@@ -230,6 +262,21 @@ This is the destination. Edge AI combines everything above with hardware-aware t
 ---
 
 ## Tools & Frameworks
+
+### Languages
+
+| Language | Purpose | Status |
+|----------|---------|--------|
+| Python | Data science, ML, AI agents | ✅ Active |
+| Linux | Edge device OS, embedded environment | 🔄 Learning |
+| YAML | Configs, pipelines, deployment | 🔄 Learning |
+| Bash / Shell | Automation, edge device management | 🔄 Learning |
+| C / C++ | Embedded systems, on-device inference | 📋 Queued |
+| Docker | Containerized ML deployment | 📋 Queued |
+| Rust | Systems programming, inference runtimes | 📋 Queued |
+| Go | Lightweight APIs, microservices (optional) | 📋 Optional |
+
+### Frameworks & Tools
 
 | Tool | Purpose | Status |
 |------|---------|--------|
@@ -241,6 +288,7 @@ This is the destination. Edge AI combines everything above with hardware-aware t
 | CrewAI | Multi-agent systems | 🔄 Learning |
 | n8n / Flowise | No-code automation | 🔄 Learning |
 | PyTorch | Deep learning | 📋 Queued |
+| Docker | Containerized deployment | 📋 Queued |
 | TensorFlow Lite | Edge inference | 📋 Queued |
 | Edge Impulse | Embedded ML | 📋 Queued |
 
@@ -262,7 +310,7 @@ This is the destination. Edge AI combines everything above with hardware-aware t
 |---------|-------|--------|
 | IBM IT Experience | Data Analytics | 🔄 Active |
 | TechCrush Cohort 6 | Data Science | 🔄 Active |
-| TechyJaunt Cohort 8 | AI/ML | 🔄 Active |
+| TechyJaunt Cohort 2 | AI/ML | 🔄 Active |
 
 ---
 
