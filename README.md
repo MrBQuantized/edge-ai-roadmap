@@ -310,7 +310,7 @@ This is the destination. Edge AI combines everything above with hardware-aware t
 |---------|-------|--------|
 | IBM IT Experience | Data Analytics | 🔄 Active |
 | TechCrush Cohort 6 | Data Science | 🔄 Active |
-| TechyJaunt Cohort 2 | AI/ML | 🔄 Active |
+| TechyJaunt Cohort 8 | AI/ML | 🔄 Active |
 
 ---
 
