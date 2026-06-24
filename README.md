@@ -83,6 +83,7 @@ Physics + Electronics
 - [Essence of Linear Algebra — 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [Mathematics for Machine Learning — Linear Algebra (Coursera)](https://www.coursera.org/learn/linear-algebra-machine-learning)
 - [Linear Algebra for Data Science (Book)](https://www.amazon.com/Linear-Algebra-Data-Science/dp/1108935990)
+- [Mathematics for Machine Learning (Book) — Comprehensive ML Math Foundation](https://mml-book.com/)
 
 ### Statistics & Probability
 
