@@ -3,37 +3,23 @@
 > A living document of my learning journey from Physics graduate → Data Scientist → Edge AI Engineer.  
 > Built in public. Updated as I grow.
 
-**GitHub:** [@MrBQuantized](https://github.com/MrBQuantized) • **Background:** Physics | Electronics | Solar PV Design  
-**Current Focus:** Data Science · AI/ML · Edge Deployment
+**GitHub:** [@MrBQuantized](https://github.com/MrBQuantized) · **Brand:** [OnohLabs](https://github.com/MrBQuantized) · **Location:** Aba, Nigeria  
+**Background:** Electronic Physics · Solar PV Design · LED Display Systems
 
 ---
 
 ## Table of Contents
 
 - [Why Edge AI](#why-edge-ai)
+- [Engineering Principles](#engineering-principles)
+- [Now](#now)
 - [Current Stage](#current-stage)
+- [Learning Milestones](#learning-milestones)
 - [Learning Roadmap](#learning-roadmap)
 - [Physics Applications](#physics-applications)
 - [Computer Science Fundamentals](#computer-science-fundamentals)
-  - [Computer Architecture](#computer-architecture)
-  - [Operating Systems](#operating-systems)
-  - [Computer Networks](#computer-networks)
-  - [Databases](#databases)
-  - [Data Structures & Algorithms](#data-structures--algorithms)
 - [Mathematics](#mathematics)
-  - [Linear Algebra](#linear-algebra)
-  - [Statistics & Probability](#statistics--probability)
-  - [Calculus & Optimization](#calculus--optimization)
 - [Programming](#programming)
-  - [Python](#python)
-  - [SQL](#sql)
-  - [Linux](#linux)
-  - [C / C++](#c--c)
-  - [Bash / Shell](#bash--shell)
-  - [YAML](#yaml)
-  - [Docker](#docker)
-  - [Rust](#rust)
-  - [Go](#go)
 - [Backend & APIs](#backend--apis)
 - [Data Science & Analytics](#data-science--analytics)
 - [Machine Learning](#machine-learning)
@@ -43,22 +29,46 @@
 - [MLOps](#mlops)
 - [Embedded Systems](#embedded-systems)
 - [Edge AI & Deployment](#edge-ai--deployment)
-  - [TinyML & On-Device Inference](#tinyml--on-device-inference)
-  - [Model Optimization](#model-optimization)
-  - [Hardware Progression](#hardware-progression)
 - [Tools & Frameworks](#tools--frameworks)
 - [Projects](#projects)
+- [Bookshelf](#bookshelf)
 - [Active Learning Tracks](#active-learning-tracks)
+- [Changelog](#changelog)
 - [Resources](#resources)
 
 ---
 
 ## Why Edge AI
 
-My background is in physics and practical electronics — LED display systems, solar PV design, power systems.  
-That foundation made one thing obvious: **the most impactful AI isn't in the cloud. It's at the edge.**
+My background is in physics and practical electronics — LED display systems, solar PV design, power systems. That foundation made one thing clear: the most impactful AI is not always in the cloud. It is at the edge.
 
-Edge AI means running intelligent models on constrained hardware — microcontrollers, embedded systems, mobile devices — where latency, power, and connectivity matter. It sits at the intersection of hardware intuition and software intelligence. That's where I'm headed.
+Edge AI means running intelligent models on constrained hardware — microcontrollers, embedded systems, mobile devices — where latency, power, and connectivity define what is possible. It sits at the intersection of hardware intuition and software intelligence. That is where I am headed.
+
+---
+
+## Engineering Principles
+
+These principles guide how I learn, build, and document work across this roadmap.
+
+- **Build projects over collecting certificates.** Understanding comes from shipping things, not from completing courses.
+- **Learn first principles before frameworks.** A framework is a shortcut. First principles are the map.
+- **Write clean, maintainable, documented code.** Code that only works on your laptop is not finished.
+- **Learn in public.** Every repo, note, and commit is part of a longer record of growth.
+- **Prefer depth over hype.** Go deep on fewer things rather than shallow on many.
+- **Connect physics, mathematics, electronics, and software engineering.** The intersections are where rare capabilities live.
+- **Build things that solve real problems.** Solar fault detection, smart energy metering, and predictive maintenance are not toy projects — they matter in the African context I build from.
+
+---
+
+## Now
+
+> What I am actively studying today. Everything else is intentionally queued.
+
+- Python (intermediate → advanced)
+- Machine Learning fundamentals (Scikit-learn)
+- Data Structures & Algorithms (CS50x, NeetCode)
+- FastAPI & REST APIs
+- LangChain & AI Agents
 
 ---
 
@@ -72,22 +82,73 @@ Edge AI means running intelligent models on constrained hardware — microcontro
 - SQL (basics → intermediate)
 - Statistics & Probability
 - Data Cleaning & EDA
-- Pandas · NumPy · Matplotlib · Seaborn
+- Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn (basics)
 
 ### Currently Learning
 - Python (intermediate → advanced)
-- Machine Learning (Scikit-learn)
+- Machine Learning
 - Data Structures & Algorithms
-- LangChain & AI Agents
 - FastAPI & REST APIs
+- LangChain & AI Agents
 
 ### Queued
 - Deep Learning (PyTorch)
 - Computer Vision (OpenCV, CNNs)
 - MLOps (Docker, MLflow)
-- Embedded Systems (C/C++, ESP32)
-- Model Optimization (TFLite, ONNX)
+- Embedded Systems (C/C++, ESP32, FreeRTOS)
+- Model Optimization (TFLite, ONNX, TensorRT)
 - Edge AI Deployment
+
+---
+
+## Learning Milestones
+
+> A structured view of the full journey broken into progressive milestones. Checkboxes updated as milestones are completed.
+
+### Milestone 1 — Foundations
+- [x] Python fundamentals
+- [x] Git & GitHub
+- [x] SQL (basics → intermediate)
+- [x] Statistics & Probability
+- [x] Data cleaning & EDA
+- [x] Pandas, NumPy, Matplotlib, Seaborn
+
+### Milestone 2 — Data & Software Engineering
+- [ ] Python (intermediate → advanced)
+- [ ] Data Structures & Algorithms
+- [ ] FastAPI & REST APIs
+- [ ] Software engineering practices (testing, packaging, logging)
+- [ ] Machine Learning fundamentals (Scikit-learn)
+- [ ] End-to-end ML project with deployment
+
+### Milestone 3 — Deep Learning & Vision
+- [ ] PyTorch fundamentals
+- [ ] Neural networks (CNNs, RNNs, Transformers)
+- [ ] Transfer learning
+- [ ] Computer Vision (OpenCV, YOLO)
+- [ ] At least one deployed CV project
+
+### Milestone 4 — MLOps & Production
+- [ ] Docker
+- [ ] MLflow & experiment tracking
+- [ ] CI/CD for ML (GitHub Actions)
+- [ ] Model serving and monitoring
+- [ ] DVC for data versioning
+
+### Milestone 5 — Embedded Systems
+- [ ] Linux fundamentals
+- [ ] C / C++ basics
+- [ ] Microcontrollers (Arduino, ESP32)
+- [ ] Communication protocols (UART, SPI, I2C)
+- [ ] FreeRTOS fundamentals
+- [ ] First working hardware project
+
+### Milestone 6 — Edge AI Engineering
+- [ ] Model optimization (quantization, pruning, distillation)
+- [ ] TensorFlow Lite on-device inference
+- [ ] Edge Impulse deployment pipeline
+- [ ] TinyML project on constrained hardware
+- [ ] Full Edge AI project from sensor input to inference output
 
 ---
 
@@ -115,16 +176,16 @@ CS Fundamentals + Math
   Edge AI Deployment  ← destination
 ```
 
-AI Agents & Automation run as a parallel track throughout — not a prerequisite, but a compounding skill.
+AI Agents & Automation run as a parallel track throughout — not a prerequisite for the chain, but a compounding skill that reinforces systems thinking.
 
 ---
 
 ## Physics Applications
 
-> My Electronic Physics background is not just context — it is a technical differentiator for Edge AI work. Most ML engineers approach this space from pure software. I approach it from hardware-first intuition.
+> My Electronic Physics background is not just context — it is a technical differentiator for Edge AI engineering. Engineers who understand hardware constraints at a physical level reason differently about deployment than those approaching from pure software.
 
 **Signal Processing**  
-Fourier transforms and filtering are used in audio and sensor preprocessing for on-device ML. Sampling theory and the Nyquist rate directly govern sensor data pipeline design.
+Fourier transforms and filtering are used in audio and sensor preprocessing for on-device ML. Sampling theory and the Nyquist rate govern sensor data pipeline design.
 
 **Sensors & Instrumentation**  
 How physical sensors work (temperature, pressure, accelerometers, cameras), sensor calibration, noise, and drift — all affect model input quality. ADC/DAC fundamentals explain how analog signals become digital data.
@@ -133,20 +194,20 @@ How physical sensors work (temperature, pressure, accelerometers, cameras), sens
 Feedback loops define how Edge AI models integrate with actuators and real-world systems. PID control is relevant to robotics and intelligent embedded systems.
 
 **Power Electronics**  
-A microcontroller running inference operates inside a fixed energy envelope. My solar PV design background maps directly to predictive maintenance and smart energy metering use cases.
+A microcontroller running inference operates inside a fixed energy envelope. Solar PV design background maps directly to predictive maintenance and smart energy metering use cases.
 
 **Computer Vision for Instrumentation**  
-Using cameras as measurement instruments — dimension measurement, fault detection — bridges traditional instrumentation with modern CV-based Edge AI.
+Using cameras as measurement instruments — dimension measurement, fault detection on solar panels — bridges traditional instrumentation with modern CV-based Edge AI.
 
 ---
 
 ## Computer Science Fundamentals
 
-> These are computer science foundations that many data science and ML learning paths spend relatively little time on. For Edge AI, they become increasingly important because understanding hardware and systems directly influences deployment and performance.
+> These are computer science foundations that many data science and machine learning learning paths spend relatively little time on. For Edge AI, they become increasingly important because understanding hardware and systems directly influences deployment and performance. Work through these gradually alongside the main track.
 
 ### Computer Architecture
 
-Understanding how CPUs, memory, and caches actually work directly affects inference performance on constrained hardware. ARM is the dominant architecture on edge devices — Raspberry Pi, mobile, microcontrollers.
+Understanding how CPUs, memory, and caches actually work influences inference performance on constrained hardware. ARM is the dominant architecture on edge devices — Raspberry Pi, mobile, microcontrollers.
 
 - [Computer Organization and Architecture — Neso Academy](https://www.youtube.com/playlist?list=PLBlnK6fEyqRgLLlzdgiTUKULKJPYc0A4q)
 - [Nand to Tetris — Build a Modern Computer from First Principles (Coursera)](https://www.coursera.org/learn/build-a-computer)
@@ -161,7 +222,7 @@ Key concepts: CPU architecture, memory hierarchy, cache, registers, instruction 
 - [CS50's Introduction to Operating Systems](https://cs50.harvard.edu/)
 - [Linux Kernel Programming — freeCodeCamp](https://www.youtube.com/watch?v=RZBcE2KLmLg)
 
-Key concepts: processes, threads, memory management, scheduling, file systems. Directly relevant to managing inference processes on embedded Linux devices.
+Key concepts: processes, threads, memory management, scheduling, file systems.
 
 ### Computer Networks
 
@@ -169,7 +230,7 @@ Key concepts: processes, threads, memory management, scheduling, file systems. D
 - [Computer Networking Full Course — freeCodeCamp](https://www.youtube.com/watch?v=qiQR5rTSshw)
 - [Networking Fundamentals — Practical Networking](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 
-Key concepts: TCP/IP, HTTP, REST, MQTT (IoT messaging protocol). Edge devices communicate back to cloud — knowing how matters.
+Key concepts: TCP/IP, HTTP, REST, MQTT (IoT messaging protocol).
 
 ### Databases
 
@@ -179,13 +240,13 @@ Key concepts: TCP/IP, HTTP, REST, MQTT (IoT messaging protocol). Edge devices co
 
 ### Data Structures & Algorithms
 
-Efficient algorithms matter more on constrained hardware where compute and memory are limited. DSA also underpins every serious software engineering interview.
+Efficient algorithms become more consequential on constrained hardware where compute and memory are limited. DSA also underpins serious software engineering work.
 
-- [CS50x — Harvard (algorithm foundations)](https://cs50.harvard.edu/x/)
+- [CS50x — Harvard](https://cs50.harvard.edu/x/)
 - [Algorithms — Abdul Bari (YouTube)](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 - [Algorithms — William Fiset (YouTube)](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu)
 - [NeetCode — DSA Roadmap](https://neetcode.io/roadmap)
-- [LeetCode — Practice](https://leetcode.com/)
+- [LeetCode](https://leetcode.com/)
 - [Introduction to Algorithms — CLRS (Book)](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/)
 
 ---
@@ -197,13 +258,11 @@ Efficient algorithms matter more on constrained hardware where compute and memor
 - [Linear Algebra at MIT — Gilbert Strang](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
 - [Essence of Linear Algebra — 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [Mathematics for Machine Learning — Linear Algebra (Coursera)](https://www.coursera.org/learn/linear-algebra-machine-learning)
-- [Linear Algebra for Data Science (Book)](https://www.amazon.com/Linear-Algebra-Data-Science/dp/1108935990)
 
 ### Statistics & Probability
 
 - [Khan Academy — Statistics and Probability](https://www.khanacademy.org/math/statistics-probability)
 - [Introduction to Statistics — Stanford (Coursera)](https://www.coursera.org/learn/stanford-statistics)
-- [Probability for Computer Scientists — Stanford CS109](https://web.stanford.edu/class/cs109/)
 - [StatQuest with Josh Starmer (YouTube)](https://www.youtube.com/@statquest)
 
 ### Calculus & Optimization
@@ -211,7 +270,6 @@ Efficient algorithms matter more on constrained hardware where compute and memor
 - [Essence of Calculus — 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 - [Mathematics for Machine Learning — Multivariate Calculus (Coursera)](https://www.coursera.org/learn/multivariate-calculus-machine-learning)
 - [Convex Optimization — Stanford](https://web.stanford.edu/class/ee364a/)
-- [Understanding Gradient Descent](https://ruder.io/optimizing-gradient-descent/)
 
 ---
 
@@ -221,107 +279,80 @@ Efficient algorithms matter more on constrained hardware where compute and memor
 
 - [Practical Python Programming — David Beazley](https://dabeaz-course.github.io/practical-python/)
 - [100 Numpy Exercises](https://github.com/rougier/numpy-100)
-- [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 - [Python Data Science Handbook — Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Real Python — Intermediate and Advanced Topics](https://realpython.com/)
 
+**Planned repo:** `python-foundations`
+
 ### SQL
 
-> SQL is the language of data. Every data science, analytics, and production ML role requires it. It is how you query databases, explore datasets, and build data pipelines.
+> SQL is the language of data. Every data science, analytics, and production ML role requires it. It is the primary tool for querying databases, exploring datasets, and building data pipelines.
 
 - [CS50's Introduction to Databases with SQL](https://cs50.harvard.edu/sql/)
 - [SQLZoo — Interactive SQL](https://sqlzoo.net/)
 - [Mode SQL Tutorial](https://mode.com/sql-tutorial/)
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
-- [Advanced SQL for Data Scientists — Mode](https://mode.com/sql-tutorial/intro-to-advanced-sql/)
+
+**Planned repo:** `sql-practice`
 
 ### Linux
 
-> The operating environment for most edge devices — Raspberry Pi, Jetson, and embedded Linux boards all run Linux. Essential early, not late.
+> The operating environment for most edge devices — Raspberry Pi, Jetson, and embedded Linux boards all run Linux.
 
 - [The Linux Command Line (Book — free)](https://linuxcommand.org/tlcl.php)
-- [Linux for Beginners — freeCodeCamp](https://www.youtube.com/watch?v=sWbUDq4S6Y8)
-- [The Missing Semester — MIT (Shell, Git, CLI tools)](https://missing.csail.mit.edu/)
+- [The Missing Semester — MIT](https://missing.csail.mit.edu/)
 - [Linux Journey — Interactive](https://linuxjourney.com/)
-- [Raspberry Pi Linux Getting Started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
 
 ### C / C++
 
-> Essential for embedded systems, microcontrollers, and on-device inference. Directly relevant to Edge AI hardware work.
+> Required for embedded systems, microcontrollers, and writing on-device inference code. The language of constrained hardware.
 
 - [C Programming for Beginners — freeCodeCamp](https://www.youtube.com/watch?v=KJgsSFOSQv0)
-- [C++ for Embedded Systems — Embedded Artistry](https://embeddedartistry.com/beginners/)
 - [Learn C++ — learncpp.com](https://www.learncpp.com/)
 - [TensorFlow Lite for Microcontrollers (C++ API)](https://www.tensorflow.org/lite/microcontrollers)
-- [Arduino C++ Reference](https://www.arduino.cc/reference/en/)
 
 ### Bash / Shell
 
-> For automation, deployment scripts, and managing Linux-based edge devices like Raspberry Pi and Jetson.
-
-- [The Missing Semester of Your CS Education — Shell Tools](https://missing.csail.mit.edu/2020/shell-tools/)
+- [The Missing Semester — Shell Tools](https://missing.csail.mit.edu/2020/shell-tools/)
 - [Bash Scripting Full Course — freeCodeCamp](https://www.youtube.com/watch?v=e7BufAVwDiM)
-- [Linux Command Line Basics — Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners)
 
-### YAML
-
-> Used in ML pipelines, model configs, Docker, Kubernetes, n8n, and LangChain workflows.
+### YAML · Docker · Rust · Go
 
 - [YAML in 5 Minutes](https://www.youtube.com/watch?v=cdLNKUoMc6c)
-- [YAML Official Specification](https://yaml.org/spec/1.2.2/)
-- [YAML for DevOps — TechWorld with Nana](https://www.youtube.com/watch?v=1uFVr15xDGg)
-
-### Docker
-
-> Containerized deployment is standard in production ML and increasingly used at the edge. Bridges model training to real-world deployment.
-
 - [Docker Getting Started — Official Docs](https://docs.docker.com/get-started/)
 - [Docker for Beginners — TechWorld with Nana](https://www.youtube.com/watch?v=3c-iBn73dDE)
-- [Docker for ML Engineers](https://testdriven.io/blog/docker-for-machine-learning/)
-- [Running Docker on Raspberry Pi](https://www.raspberrypi.com/tutorials/use-docker-to-run-applications-on-raspberry-pi/)
-
-### Rust
-
-> Growing fast in systems programming and ML inference runtimes. Queued for later in the roadmap.
-
 - [The Rust Programming Language (Book)](https://doc.rust-lang.org/book/)
 - [Rust for Embedded Systems](https://docs.rust-embedded.org/book/)
-- [Rustlings — Interactive Rust Exercises](https://github.com/rust-lang/rustlings)
-
-### Go
-
-> Optional specialization — useful for building lightweight APIs and microservices that serve ML models at the edge.
-
 - [Go by Example](https://gobyexample.com/)
-- [Go Documentation — Official](https://go.dev/doc/)
-- [Building APIs with Go](https://www.youtube.com/watch?v=SonwZ6MF5BE)
 
 ---
 
 ## Backend & APIs
 
-> Deploying an AI model is only half the work. Making it accessible — via REST APIs, lightweight services, or edge endpoints — is the other half. Backend skills complete the pipeline from trained model to working product. Currently learning FastAPI as part of active skill-building.
+> Deploying an AI model is only half the work. Making it accessible via REST APIs or lightweight services completes the pipeline from trained model to working product. Currently learning FastAPI as part of active skill-building.
 
 - [FastAPI Documentation — Official](https://fastapi.tiangolo.com/)
 - [FastAPI Full Course — freeCodeCamp](https://www.youtube.com/watch?v=0sOvCWFmrtA)
 - [REST API Design Best Practices](https://restfulapi.net/)
-- [Building ML APIs with FastAPI](https://towardsdatascience.com/deploying-machine-learning-models-with-fastapi-1e30e4940f82)
 - [JWT Authentication Explained](https://jwt.io/introduction/)
 - [Streamlit for ML Apps](https://docs.streamlit.io/)
 - [Flask for ML Deployment](https://flask.palletsprojects.com/)
+
+**Planned repo:** `fastapi-labs`
 
 ---
 
 ## Data Science & Analytics
 
-- [Fundamental Python Data Science Libraries: Numpy](https://numpy.org/doc/stable/user/absolute_beginners.html)
-- [Fundamental Python Data Science Libraries: Pandas](https://pandas.pydata.org/docs/getting_started/index.html)
-- [Fundamental Python Data Science Libraries: Matplotlib](https://matplotlib.org/stable/tutorials/index.html)
-- [Fundamental Python Data Science Libraries: Scikit-Learn](https://scikit-learn.org/stable/getting_started.html)
+- [Pandas Documentation](https://pandas.pydata.org/docs/getting_started/index.html)
+- [NumPy Documentation](https://numpy.org/doc/stable/user/absolute_beginners.html)
+- [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html)
 - [Seaborn Documentation](https://seaborn.pydata.org/)
-- [Data Engineering Roadmap](https://roadmap.sh/data-engineer)
-- [How to build a data science project from scratch](https://medium.com/the-importance-of-being-earnest/how-to-build-a-data-science-project-from-scratch-dc4f096a62a1)
-- [Kaggle Learn — Practical Data Science Courses](https://www.kaggle.com/learn)
+- [Scikit-Learn Getting Started](https://scikit-learn.org/stable/getting_started.html)
+- [Kaggle Learn — Practical Data Science](https://www.kaggle.com/learn)
+
+**Active repo:** [ibm-data-analytics](https://github.com/MrBQuantized/ibm-data-analytics)  
+**Active repo:** [data-analytics-techcrush](https://github.com/MrBQuantized/data-analytics-techcrush)
 
 ---
 
@@ -330,11 +361,13 @@ Efficient algorithms matter more on constrained hardware where compute and memor
 - [Machine Learning Specialization — Andrew Ng (Coursera)](https://www.coursera.org/specializations/machine-learning-introduction)
 - [Machine Learning Crash Course — Google](https://developers.google.com/machine-learning/crash-course)
 - [CS229 Lecture Notes — Stanford](https://cs229.stanford.edu/notes2022fall/main_notes.pdf)
-- [Understanding Machine Learning: From Theory to Algorithms (Book)](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/)
 - [Interpretable Machine Learning (Book)](https://christophm.github.io/interpretable-ml-book/)
-- [Machine Learning Fundamentals: Bias and Variance — StatQuest](https://www.youtube.com/watch?v=EuBBz3bI-aA)
-- [Machine Learning Fundamentals: Cross Validation — StatQuest](https://www.youtube.com/watch?v=fSytzGwwBVw)
+- [StatQuest — Bias and Variance](https://www.youtube.com/watch?v=EuBBz3bI-aA)
+- [StatQuest — Cross Validation](https://www.youtube.com/watch?v=fSytzGwwBVw)
 - [Hands-On Machine Learning — Aurélien Géron (Book)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
+
+**Active repo:** [ai-ml-techyjaunt](https://github.com/MrBQuantized/ai-ml-techyjaunt)  
+**Planned repo:** `ml-labs`
 
 ---
 
@@ -345,7 +378,6 @@ Efficient algorithms matter more on constrained hardware where compute and memor
 - [Deep Learning Book — Goodfellow et al.](https://www.deeplearningbook.org/)
 - [Dive into Deep Learning (Interactive)](https://d2l.ai/)
 - [Deep Learning with PyTorch](https://pytorch.org/tutorials/)
-- [Building Neural Networks from Scratch](https://github.com/rasbt/machine-learning-book)
 - [fast.ai — Practical Deep Learning for Coders](https://course.fast.ai/)
 
 ### Transformers & LLMs
@@ -353,34 +385,29 @@ Efficient algorithms matter more on constrained hardware where compute and memor
 - [The Illustrated Transformer — Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 - [Attention is All You Need (Paper)](https://arxiv.org/abs/1706.03762)
 - [Stanford CS25 — Transformers United](https://web.stanford.edu/class/cs25/)
-- [How Transformer LLMs Work](https://www.youtube.com/watch?v=wjZofJX0v4M)
 
 ---
 
 ## Computer Vision
 
-> Computer Vision is one of the most common Edge AI workloads — object detection on cameras, defect inspection on production lines, gesture recognition, and more. Understanding CV is nearly mandatory for practical Edge AI work.
+> Computer Vision is one of the most common Edge AI workloads — object detection on cameras, defect inspection, gesture recognition, and smart instrumentation. It is also a direct application of my physics and instrumentation background.
 
 - [OpenCV Documentation](https://docs.opencv.org/)
 - [OpenCV Crash Course — freeCodeCamp](https://www.youtube.com/watch?v=oXlwWbU8l2o)
 - [CS231n — Stanford: CNNs for Visual Recognition](http://cs231n.stanford.edu/)
 - [Deep Learning for Computer Vision — PyImageSearch](https://pyimagesearch.com/)
 - [YOLOv8 Documentation — Ultralytics](https://docs.ultralytics.com/)
-- [Image Segmentation — Papers with Code](https://paperswithcode.com/task/semantic-segmentation)
 - [Pose Estimation with MediaPipe](https://developers.google.com/mediapipe/solutions/vision/pose_landmarker)
-
-Key topics: image preprocessing, CNNs, object detection, YOLO, image segmentation, pose estimation, OpenCV pipelines.
 
 ---
 
 ## AI Agents & Automation
 
-> A parallel track — runs alongside the main chain rather than being a single step in it. Reinforces systems thinking and orchestration skills that carry directly into Edge AI deployment pipelines.
+> A parallel track running alongside the main chain. Reinforces systems thinking and orchestration skills that carry into Edge AI deployment pipelines.
 
 - [LangChain Documentation](https://docs.langchain.com/)
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
 - [CrewAI Documentation](https://docs.crewai.com/)
-- [DeepLearning.AI — LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
 - [n8n Documentation](https://docs.n8n.io/)
 - [Flowise Documentation](https://flowiseai.com/)
 
@@ -390,22 +417,20 @@ Key topics: image preprocessing, CNNs, object detection, YOLO, image segmentatio
 
 ## MLOps
 
-> MLOps is the bridge between ML research and production. It covers versioning, experiment tracking, CI/CD pipelines for models, and monitoring deployed systems. For Edge AI specifically, MLOps governs how updated models get pushed to devices in the field.
+> MLOps is the bridge between ML research and production. It covers versioning, experiment tracking, CI/CD pipelines for models, and monitoring deployed systems. For Edge AI, it also governs how updated models get pushed to devices in the field.
 
 - [MLflow Documentation](https://mlflow.org/docs/latest/index.html)
 - [DVC — Data Version Control](https://dvc.org/doc)
-- [Weights & Biases (W&B) — Experiment Tracking](https://docs.wandb.ai/)
-- [CI/CD for Machine Learning — GitHub Actions](https://docs.github.com/en/actions)
+- [Weights & Biases — Experiment Tracking](https://docs.wandb.ai/)
+- [CI/CD for ML — GitHub Actions](https://docs.github.com/en/actions)
 - [Full Stack Deep Learning — MLOps](https://fullstackdeeplearning.com/)
-- [Machine Learning Engineering — Chip Huyen (Book)](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)
-
-Key tools: MLflow (experiment tracking), DVC (data versioning), W&B (monitoring), Docker + GitHub Actions (CI/CD pipeline).
+- [Designing Machine Learning Systems — Chip Huyen (Book)](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)
 
 ---
 
 ## Embedded Systems
 
-> Where software meets hardware. Edge AI runs on real devices with real constraints — power budgets, limited memory, no operating system in some cases. This section is where the physics background becomes a genuine engineering advantage.
+> Where software meets hardware. Edge AI runs on real devices with real constraints — power budgets, limited memory, and often no operating system. This is where the Electronic Physics background becomes a direct engineering advantage.
 
 ### Firmware & RTOS
 
@@ -416,4 +441,17 @@ Key tools: MLflow (experiment tracking), DVC (data versioning), W&B (monitoring)
 ### STM32
 
 - [STM32 Getting Started — STMicroelectronics](https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
-- [STM32CubeIDE Tutorial — Controllers Tech (YouTube)](https:/
+- [Embedded Systems Shape The World — UT Austin (edX)](https://www.edx.org/learn/embedded-systems/the-university-of-texas-at-austin-embedded-systems-shape-the-world-microcontroller-input-output)
+
+### ESP32 & Arduino
+
+- [ESP-IDF Programming Guide — Espressif](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
+- [ESP32 with MicroPython — Random Nerd Tutorials](https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/)
+- [Arduino Official Documentation](https://docs.arduino.cc/)
+- [Arduino Machine Learning](https://docs.arduino.cc/tutorials/nano-33-ble-sense/get-started-with-machine-learning/)
+
+### Communication Protocols
+
+- [I2C Protocol — NXP Reference](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
+- [SPI Protocol Guide — SparkFun](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all)
+- [UART Explained — Cir
