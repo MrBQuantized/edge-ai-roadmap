@@ -142,7 +142,7 @@ Using cameras as measurement instruments — dimension measurement, fault detect
 
 ## Computer Science Fundamentals
 
-> These are the foundations most ML engineers skip. For Edge AI specifically — where you need to understand what happens at the hardware level — they matter more than in cloud AI work. Work through these gradually alongside the main track, not as a separate prerequisite block.
+> These are computer science foundations that many data science and ML learning paths spend relatively little time on. For Edge AI, they become increasingly important because understanding hardware and systems directly influences deployment and performance.
 
 ### Computer Architecture
 
