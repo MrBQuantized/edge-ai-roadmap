@@ -352,7 +352,7 @@ Efficient algorithms become more consequential on constrained hardware where com
 - [Kaggle Learn — Practical Data Science](https://www.kaggle.com/learn)
 
 **Active repo:** [ibm-data-analytics](https://github.com/MrBQuantized/ibm-data-analytics)  
-**Active repo:** [data-analytics-techcrush](https://github.com/MrBQuantized/data-analytics-techcrush)
+**Active repo:** [data-science-techcrush](https://github.com/MrBQuantized/data-science-techcrush)
 
 ---
 
