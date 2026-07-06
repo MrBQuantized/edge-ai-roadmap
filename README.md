@@ -454,4 +454,241 @@ Efficient algorithms become more consequential on constrained hardware where com
 
 - [I2C Protocol — NXP Reference](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 - [SPI Protocol Guide — SparkFun](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all)
-- [UART Explained — Cir
+- [UART Explained — Circuit Basics](https://www.circuitbasics.com/basics-uart-communication/)
+- [DMA — Embedded Artistry](https://embeddedartistry.com/blog/2017/08/28/dma-and-embedded-systems/)
+
+**Planned repo:** `embedded-systems`
+
+---
+
+## Edge AI & Deployment
+
+This is the destination. Edge AI combines everything above with hardware-aware thinking — my physics and electronics background is a direct asset here.
+
+### TinyML & On-Device Inference
+
+- [TinyML and Efficient Deep Learning — MIT 6.5940](https://hanlab.mit.edu/courses/2023-fall-65940)
+- [TinyML — Pete Warden & Daniel Situnayake (Book)](https://www.oreilly.com/library/view/tinyml/9781492052036/)
+- [Introduction to Embedded ML — Edge Impulse (Coursera)](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)
+- [TensorFlow Lite Documentation](https://www.tensorflow.org/lite/guide)
+- [Edge Impulse Documentation](https://docs.edgeimpulse.com/)
+
+### Model Optimization
+
+- [Quantization in Deep Learning — HuggingFace](https://huggingface.co/docs/optimum/concept_guides/quantization)
+- [Neural Network Pruning Explained](https://towardsdatascience.com/neural-network-pruning-101-af816aaea61d)
+- [Knowledge Distillation — Keras](https://keras.io/examples/vision/knowledge_distillation/)
+- [NVIDIA TensorRT Documentation](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html)
+- [Intel OpenVINO Documentation](https://docs.openvino.ai/)
+- [ONNX — Open Neural Network Exchange](https://onnx.ai/)
+
+### Hardware Progression
+
+```
+Arduino Nano 33 BLE Sense
+  ↓ — C++, GPIO, sensors, TFLite Micro
+ESP32
+  ↓ — Wi-Fi, BLE, MicroPython, ESP-IDF
+Raspberry Pi 4 / 5
+  ↓ — Linux, camera modules, Python inference
+NVIDIA Jetson Nano / Orin
+  ↓ — GPU inference, TensorRT, CUDA basics
+Production Edge Devices
+     Google Coral · Intel NCS · Custom hardware
+```
+
+**Resources:**
+- [Arduino Nano 33 BLE Sense — ML Getting Started](https://docs.arduino.cc/tutorials/nano-33-ble-sense/get-started-with-machine-learning/)
+- [Raspberry Pi AI Kit Documentation](https://www.raspberrypi.com/documentation/accessories/ai-kit.html)
+- [NVIDIA Jetson Getting Started](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
+- [Google Coral Documentation](https://coral.ai/docs/)
+
+**Planned repo:** `edge-ai-labs`
+
+---
+
+## Tools & Frameworks
+
+### Languages
+
+| Language | Purpose | Status |
+|----------|---------|--------|
+| Python | Data science, ML, AI agents | ✅ Active |
+| SQL | Data querying, analytics | ✅ Active |
+| Linux / Bash | Edge device OS, automation | 🔄 Learning |
+| YAML | Configs, pipelines, deployment | 🔄 Learning |
+| C / C++ | Embedded systems, on-device inference | 📋 Queued |
+| Docker | Containerized ML deployment | 📋 Queued |
+| Rust | Systems programming, inference runtimes | 📋 Queued |
+| Go | Lightweight APIs, microservices | 📋 Optional |
+
+### Frameworks & Tools
+
+| Tool | Purpose | Status |
+|------|---------|--------|
+| Python + Anaconda | Core environment | ✅ Active |
+| VS Code | IDE | ✅ Active |
+| Git + GitHub | Version control | ✅ Active |
+| Jupyter Notebook | Experimentation | ✅ Active |
+| FastAPI | ML API deployment | 🔄 Learning |
+| LangChain | AI Agents | 🔄 Learning |
+| LangGraph | Agent workflows | 🔄 Learning |
+| CrewAI | Multi-agent systems | 🔄 Learning |
+| n8n / Flowise | No-code automation | 🔄 Learning |
+| PyTorch | Deep learning | 📋 Queued |
+| MLflow | Experiment tracking | 📋 Queued |
+| DVC | Data versioning | 📋 Queued |
+| TensorFlow Lite | Edge inference | 📋 Queued |
+| Edge Impulse | Embedded ML | 📋 Queued |
+| TensorRT | NVIDIA edge inference | 📋 Queued |
+| OpenVINO | Intel edge inference | 📋 Queued |
+
+---
+
+## Projects
+
+> Projects are the proof of work. Each one is chosen to demonstrate a specific layer of the roadmap rather than to collect a certificate.
+
+### Beginner
+
+| Project | Description | Stack | Status | Repo |
+|---------|-------------|-------|--------|------|
+| CLI Calculator | Python OOP and CLI fundamentals | Python | 📋 Planned | `python-foundations` |
+| Student Management System | File I/O, data structures, clean code | Python | 📋 Planned | `python-foundations` |
+| CLI Task Manager | Packaging, config files, logging | Python | 📋 Planned | `python-foundations` |
+| SQL Practice Exercises | Queries, joins, CTEs, window functions | SQL | 📋 Planned | `sql-practice` |
+
+### Intermediate
+
+| Project | Description | Stack | Status | Repo |
+|---------|-------------|-------|--------|------|
+| UrbanNest Analytics | Hotel ADR prediction — TechCrush Cohort 6 capstone | Python, Pandas, Scikit-learn | ✅ Complete | [data-science-techcrush](https://github.com/MrBQuantized/data-science-techcrush) |
+| PV Techno-Economic Tool | Solar PV financial analysis (CAPEX, NPV, IRR, LCOE) | Python, Matplotlib | ✅ Complete | — |
+| ML Classification Pipeline | End-to-end classification with evaluation | Scikit-learn, FastAPI | 📋 Planned | `ml-labs` |
+| ML Regression Pipeline | End-to-end regression with feature engineering | Scikit-learn | 📋 Planned | `ml-labs` |
+| FastAPI ML Service | REST API wrapper around a trained model | FastAPI, Docker | 📋 Planned | `fastapi-labs` |
+
+### Advanced
+
+| Project | Description | Stack | Status | Repo |
+|---------|-------------|-------|--------|------|
+| CV Object Detection | Real-time object detection pipeline | PyTorch, OpenCV, YOLO | 📋 Planned | `ml-labs` |
+| AI Agent System | Multi-agent workflow with memory and tool use | LangGraph, CrewAI | 📋 Planned | [ai-agents-track](https://github.com/MrBQuantized/ai-agents-track) |
+| Embedded Sensor Logger | Real-time data logging from sensors via UART/I2C | C++, ESP32 | 📋 Planned | `embedded-systems` |
+
+### Portfolio / Research
+
+| Project | Description | Stack | Status | Repo |
+|---------|-------------|-------|--------|------|
+| Gesture Recognition (TinyML) | On-device gesture detection — Arduino Nano 33 BLE | C++, TFLite Micro | 📋 Planned | `edge-ai-labs` |
+| Smart Energy Meter | Real-time energy monitoring with anomaly detection | Python, TFLite, Raspberry Pi | 📋 Planned | `edge-ai-labs` |
+| Solar Fault Detection | CV-based fault detection on solar panels | OpenCV, YOLO, Raspberry Pi | 📋 Planned | `edge-ai-labs` |
+| TinyML Wake Word | Always-on wake word detection on ESP32 | C++, ESP-IDF, TFLite Micro | 📋 Planned | `edge-ai-labs` |
+
+### Dream Edge AI Projects
+
+> Aspirational projects that combine Electronic Physics, AI, and Edge deployment. These are what this entire roadmap is building toward.
+
+- **Smart Solar Fault Detection** — CV system that identifies panel degradation, shading, and faults in real time on a Raspberry Pi. Direct application of solar PV background.
+- **TinyML Smart Energy Meter** — On-device anomaly detection for energy consumption patterns. Runs on ESP32 without cloud dependency.
+- **Edge AI Predictive Maintenance** — Vibration and temperature sensor fusion model for equipment health monitoring. Runs inference on Jetson Nano.
+- **Industrial Defect Detection** — Camera-based quality inspection system. OpenCV + YOLO on Raspberry Pi.
+- **Wildlife Monitoring Camera** — Low-power, always-on object detection for wildlife camera traps. TFLite Micro on battery-powered hardware.
+- **Offline Raspberry Pi AI Assistant** — Fully local voice assistant with on-device ASR and LLM inference. No cloud required.
+- **Intelligent Laboratory Instrumentation** — Using CV to automate lab measurements traditionally done manually. Bridges physics instrumentation and Edge AI.
+- **Embedded Computer Vision for Robotics** — Real-time visual odometry and obstacle detection for a small autonomous platform. Full-stack embedded AI.
+
+---
+
+## Bookshelf
+
+### Currently Reading
+
+| Book | Author | Topic |
+|------|--------|-------|
+| Hands-On Machine Learning | Aurélien Géron | ML / Deep Learning |
+| The Linux Command Line | William Shotts | Linux / Systems |
+
+### Next Up
+
+| Book | Author | Topic |
+|------|--------|-------|
+| Deep Learning Book | Goodfellow, Bengio, Courville | Deep Learning |
+| TinyML | Pete Warden & Daniel Situnayake | Edge AI |
+| Designing Machine Learning Systems | Chip Huyen | MLOps |
+| Computer Organization and Design (ARM) | Patterson & Hennessy | Computer Architecture |
+
+### Reference
+
+| Book | Author | Topic |
+|------|--------|-------|
+| Introduction to Algorithms (CLRS) | Cormen et al. | DSA |
+| The Rust Programming Language | Steve Klabnik | Rust / Systems |
+| Operating Systems: Three Easy Pieces | Remzi Arpaci-Dusseau | OS |
+| Interpretable Machine Learning | Christoph Molnar | ML Explainability |
+| Deep Learning for Embedded Systems | — | Edge AI |
+
+---
+
+## Active Learning Tracks
+
+| Program | Track | Status |
+|---------|-------|--------|
+| IBM IT Experience | Data Analytics | 🔄 Active |
+| TechCrush Cohort 6 | Data Science | ✅ Complete |
+| TechyJaunt Cohort 8 | AI/ML | 🔄 Active |
+
+---
+
+## Changelog
+
+### v3.0 — July 2026
+- Added Engineering Principles section
+- Added Now section
+- Added Learning Milestones with checkboxes
+- Added Bookshelf section
+- Added Dream Edge AI Projects subsection
+- Restructured Projects into Beginner / Intermediate / Advanced / Portfolio / Research
+- Added planned repository placeholders throughout
+- Improved wording for accuracy and tone throughout
+- Added Changelog
+
+### v2.0 — June 2026
+- Added Computer Science Fundamentals section
+- Added Backend & APIs section
+- Added Computer Vision section
+- Added MLOps section
+- Added Embedded Systems section (expanded)
+- Added Physics Applications section
+- Added Current Stage section
+- Reorganized learning progression
+- Hardware list replaced with staged progression
+
+### v1.0 — May 2026
+- Initial roadmap published
+
+---
+
+## Resources
+
+### Podcasts & Talks
+- [Lex Fridman Podcast](https://lexfridman.com/podcast/)
+- [The TWIML AI Podcast](https://twimlai.com/)
+- [Practical AI](https://practicalai.fm/)
+- [Embedded FM — Embedded Systems Podcast](https://embedded.fm/)
+
+### Communities
+- [Hugging Face Forums](https://discuss.huggingface.co/)
+- [r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
+- [Papers With Code](https://paperswithcode.com/)
+- [Edge Impulse Community](https://forum.edgeimpulse.com/)
+- [Zindi — African AI competitions](https://zindi.africa/)
+
+### Meta / Lists
+- [Roadmap.sh — AI & Data Science](https://roadmap.sh/ai-data-scientist)
+- [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
+- [Awesome TinyML](https://github.com/gigwegbe/tinyml-papers-and-projects)
+
+---
+
+*Last updated: July 2026 · Open to collaborations and feedback*
