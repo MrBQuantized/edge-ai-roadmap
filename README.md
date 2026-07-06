@@ -563,7 +563,7 @@ Production Edge Devices
 | Project | Description | Stack | Status | Repo |
 |---------|-------------|-------|--------|------|
 | UrbanNest Analytics | Hotel ADR prediction — TechCrush Cohort 6 capstone | Python, Pandas, Scikit-learn | ✅ Complete | [data-science-techcrush](https://github.com/MrBQuantized/data-science-techcrush) |
-| PV Techno-Economic Tool | Solar PV financial analysis (CAPEX, NPV, IRR, LCOE) | Python, Matplotlib | ✅ Complete | — |
+| PV Techno-Economic Tool | Solar PV financial analysis (CAPEX, NPV, IRR, LCOE) | Python, Matplotlib | 📋 Planned | — |
 | ML Classification Pipeline | End-to-end classification with evaluation | Scikit-learn, FastAPI | 📋 Planned | `ml-labs` |
 | ML Regression Pipeline | End-to-end regression with feature engineering | Scikit-learn | 📋 Planned | `ml-labs` |
 | FastAPI ML Service | REST API wrapper around a trained model | FastAPI, Docker | 📋 Planned | `fastapi-labs` |
